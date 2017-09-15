@@ -1,5 +1,21 @@
 # react-grid-gallery
 
+### v0.4.2 / 2017-07-23
+
+* Added optional `id` prop for the id attribute of the `<Gallery>` tag.
+
+* Added className attribute for the `<Gallery>` tag.
+
+* Updated documentation.
+
+
+### v0.4.1 / 2017-07-20
+
+* Fixed `maxRows` not updating bug [PR 35](https://github.com/benhowell/react-grid-gallery/pull/35). Thanks [SimeonC](https://github.com/SimeonC).
+
+* Updated documentation.
+
+
 ### v0.4.0 / 2017-06-29
 
 * Added optional `tileViewportStyle` prop as a function to determine style of tile viewport. This function leverages [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call).
